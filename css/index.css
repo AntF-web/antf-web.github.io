@@ -1,0 +1,1817 @@
+body {
+    background-color: #5f9ea0;
+    color: rgb(0, 0, 0);
+    font: 400 1.125em/1.38 'Berlin Sans FB Bold';
+
+}
+
+@font-face {
+    font-family: 'Berlin Sans FB Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../Berlin Sans FB Bold'), url('../BRLNSB.woff');
+
+}
+
+
+
+.bio .text {
+    left: 80.3655660377%;
+    z-index: 11;
+}
+
+.button {
+    position: absolute;
+
+
+}
+
+.button .cv {
+    left: 73.5849056603%;
+    z-index: 8;
+
+}
+
+.button .text {
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    font-weight: 400;
+    top: 44px;
+
+}
+
+.button .text:hover,
+a:hover .button {
+    color: rgb(255, 255, 204);
+}
+
+.container {
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 55px;
+    left: 25.0494791666%;
+    position: relative;
+    top: 9px;
+    width: 50%;
+    z-index: 0;
+
+}
+
+.container:hover {
+    padding: 0 0 0 0;
+}
+
+.footer {
+    clear: both;
+    color: rgb(0, 0, 0);
+    float: left;
+    font-size: 0.889em;
+    font-weight: 400;
+    margin: 8% 0 0 45%;
+    text-shadow: -1px -1px 0 rgb(0, 0, 0);
+
+}
+
+.headphones {
+    margin: 75px 0 0 19.20484%;
+    width: 30px;
+}
+
+.image {
+    display: block;
+    float: left;
+    height: auto;
+    overflow: hidden;
+}
+
+.job {
+    color: rgb(0, 0, 0);
+    float: left;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 71px 0 0 1.54645%;
+    padding: 4px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.nom {
+    color: rgb(0, 0, 0);
+    font-size: 2.222em;
+    font-weight: 400;
+    height: 65px;
+    left: 32.2292380136%;
+    line-height: 1.38;
+    position: absolute;
+    text-align: center;
+    top: 4px;
+    z-index: 3;
+}
+
+#disc {
+    background-image: url(../images/vinyl-record-203x152.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 60%;
+    font-family: 'Berlin Sans FB Bold';
+    height: 150px;
+    margin: auto;
+    margin-bottom: 15%;
+    margin-top: 21%;
+    position: relative;
+    width: 150px;
+
+}
+
+
+
+#disc:hover {
+    -webkit-animation: spin1 3s infinite linear;
+    -moz-animation: spin1 3s infinite linear;
+    -o-animation: spin1 3s infinite linear;
+    -ms-animation: spin1 3s infinite linear;
+    animation: spin1 3s infinite linear;
+
+}
+
+@-webkit-keyframes spin1 {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin1 {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes spin1 {
+    0% {
+        -o-transform: rotate(0deg);
+    }
+
+    100% {
+        -o-transform: rotate(360deg);
+    }
+}
+
+@-ms-keyframes spin1 {
+    0% {
+        -ms-transform: rotate(0deg);
+    }
+
+    100% {
+        -ms-transform: rotate(360deg);
+    }
+}
+
+@-keyframes spin1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.lightshow {
+    width: 690px;
+
+
+}
+
+#disc:hover .lightshow {
+    -moz-animation: random 5s infinite;
+    -webkit-animation: random 5s infinite;
+    animation: random 5s infinite;
+    display: block;
+    width: 690px;
+}
+
+@keyframes random {
+    15% {
+        background-color: red;
+    }
+
+    30% {
+        background-color: yellow;
+    }
+
+    45% {
+        background-color: green;
+    }
+
+    60% {
+        background-color: blue;
+    }
+
+    75% {
+        background-color: white;
+    }
+
+}
+
+
+.pause {
+    position: relative;
+    width: 53px;
+    z-index: 9;
+
+
+}
+
+.stop {
+    position: relative;
+    width: 53px;
+    z-index: 12;
+
+}
+
+
+.play {
+    position: relative;
+    width: 53px;
+    z-index: 14;
+
+}
+
+
+
+
+.work {
+
+    left: 69%;
+
+}
+
+.button-1:hover,
+.button-3:hover,
+.button-2:hover {
+    background-color: rgb(255, 255, 204);
+    border-radius: 50px;
+}
+
+
+
+
+
+.button-1,
+.button-2,
+.button-3 {
+    display: block;
+    height: 52px;
+    top: 45%;
+    width: 4.4166666666%;
+
+}
+
+
+.button-1 {
+    left: 37.75%;
+    z-index: 13;
+}
+
+.button-3 {
+    left: 55%;
+    z-index: 10;
+}
+
+.button-2 {
+    left: 46.4166666666%;
+    z-index: 10;
+}
+
+
+
+.text-3 strong {
+    color: inherit;
+}
+
+.text-5 strong {
+    color: rgb(255, 255, 204);
+}
+
+
+
+
+
+@media(max-width: 1070px) {
+    .bio {
+        left: 47.38317757%;
+    }
+
+    .bio .text {
+        left: 24.4444444444%;
+    }
+
+    .button .cv {
+        left: 33.3333333333%;
+    }
+
+    .button .image {
+        height: auto;
+        position: relative;
+    }
+
+    .button .pause {
+        z-index: 9;
+    }
+
+    .button .stop {
+        z-index: 12;
+
+    }
+
+    .button .text {
+        top: 48px;
+    }
+
+    .container {
+        left: 25%;
+    }
+
+    .container .image {
+        height: auto;
+        margin-left: 13.95412%;
+        margin-top: 79px;
+    }
+
+    .container .nom {
+        left: 30.4822976878%;
+
+    }
+
+    .container .text {
+        margin-left: 1.46014%;
+        margin-top: 74px;
+        position: relative;
+        z-index: 1;
+
+    }
+
+
+
+
+
+    .cv {
+        left: 59.1574182242%;
+
+    }
+
+    .footer {
+        margin-left: 44.48014%;
+        margin-top: 104px;
+    }
+
+    .image {
+        height: auto;
+    }
+
+    .work {
+        left: 35.6074766355%;
+        width: 4.4158878504%;
+
+    }
+
+    .work .text {
+        left: auto;
+
+
+    }
+
+
+
+    .button ._image {
+        margin-left: 8.49868%;
+        z-index: 6;
+        top: 110%;
+    }
+
+    .button-1,
+    .button-2,
+    .button-3 {
+        width: 4.4158878504%;
+        top: 100%;
+    }
+
+
+}
+
+@media(max-width: 1024px) {
+    body {
+        font-size: 1.125em;
+
+    }
+
+    .button {
+        margin-top: 4%;
+    }
+
+    .button .pause {
+        z-index: 9;
+
+    }
+
+    .button .stop {
+        z-index: 12;
+    }
+
+    .container .image {
+        height: auto;
+        margin-left: 14.22001%;
+        margin-top: 73px;
+    }
+
+    .container .nom {
+        left: 29.2086693548%;
+
+    }
+
+    .container .text {
+        margin-left: 0.1386088709%;
+        margin-top: 68px;
+        position: relative;
+        z-index: 1;
+
+    }
+
+    .footer {
+
+        margin-top: 11%;
+        position: relative;
+    }
+
+    .image {
+        height: auto;
+    }
+
+
+
+    .work .text {
+        top: 93%;
+        left: auto;
+
+    }
+
+    #disc {
+        margin-top: 25%;
+        position: relative;
+
+    }
+
+
+    .button-1,
+    .button-2,
+    .button-3 {
+        width: 4.4158935546%;
+
+
+    }
+
+
+    .button-1 {
+        left: 37.4609375%;
+    }
+
+    .button-2 {
+        left: 47.4609375%;
+    }
+
+    .button-3 {
+        left: 57%;
+    }
+
+
+}
+
+@media(max-width: 800px) {
+    .button .image {
+        height: auto;
+        position: relative;
+    }
+
+    .button .pause {
+        z-index: 9;
+    }
+
+    .button .stop {
+        z-index: 12;
+    }
+
+    .container .image {
+        height: auto;
+        margin-left: 4.99268%;
+        margin-top: 75px;
+    }
+
+    .container .nom {
+        left: 23.1624348958%;
+    }
+
+    .container .text {
+        font-style: normal;
+        font-weight: Bold;
+        margin-left: 0;
+        margin-top: 69px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .footer {
+        margin-left: 42.62305%;
+        margin-top: 12%;
+    }
+
+    .image {
+        height: auto;
+    }
+
+
+    .button-1 {
+        left: 33.75%;
+        width: 6.625%;
+        top: 21%;
+    }
+
+    .button-2 {
+        left: 46.75%;
+        width: 6.625%;
+        top: 21%;
+    }
+
+
+    .button-3 {
+        left: 60.1249999999%;
+        width: 6.625%;
+        top: 21%;
+    }
+
+    #disc .image {
+
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    #disc {
+        height: 100px;
+        margin-bottom: 10%;
+        margin-top: 33%;
+        width: 100px;
+
+    }
+}
+
+@media(max-width: 768px) {
+    .button .image {
+        height: auto;
+        position: relative;
+    }
+
+    .button .pause {
+        z-index: 9;
+    }
+
+    .button .stop {
+        z-index: 12;
+    }
+
+    .container .image {
+        height: auto;
+        margin-left: 1%;
+        margin-top: 75px;
+    }
+
+    .container .nom {
+        left: 23.1624348958%;
+    }
+
+
+
+    .footer {
+        margin-left: 42.62305%;
+        margin-top: 12%;
+    }
+
+    .image {
+        height: auto;
+    }
+
+
+
+    .button-1 {
+        left: 33.75%;
+        width: 6.625%;
+        top: 26%;
+    }
+
+    .button-2 {
+        left: 46.75%;
+        width: 6.625%;
+        top: 26%;
+    }
+
+    .button-3 {
+        left: 60.1249999999%;
+        width: 6.625%;
+        top: 26%;
+    }
+
+    #disc .image {
+        margin-left: 30%;
+        margin-top: 5%;
+
+    }
+
+    #disc {
+        height: 100px;
+        margin-bottom: 10%;
+        margin-top: 35%;
+        width: 100px;
+
+    }
+
+
+
+}
+
+@media(max-width: 414px) {
+    body {
+        font-size: 1.125em;
+    }
+
+    .container {
+        height: 52%;
+        z-index: 100;
+    }
+
+    .bio {
+        left: 81%;
+        top: 150px;
+    }
+
+    .bio .text {
+        left: 20.7547169811%;
+    }
+
+    .button .cv {
+        left: 28.3018867924%;
+    }
+
+    .button .image {
+        height: auto;
+        position: relative;
+    }
+
+    .button .pause {
+        z-index: 9;
+    }
+
+    .button .stop {
+        z-index: 12;
+    }
+
+    .container .image {
+        height: auto;
+        margin-left: 40.68404%;
+        margin-top: 105px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .container .nom {
+        height: 82px;
+        left: 2.3391812865%;
+        line-height: 0.7;
+        top: 7px;
+    }
+
+    .container .text {
+        clear: both;
+        line-height: 1;
+        margin-left: auto;
+        margin-top: 5%;
+        position: relative;
+        width: 100%;
+        z-index: 1;
+
+    }
+
+
+
+    .cv {
+        left: 81%;
+        top: 239px;
+    }
+
+    .footer {
+        margin-left: 34.2625%;
+        margin-top: 12px;
+    }
+
+    .image {
+        height: auto;
+        position: relative;
+        z-index: 14;
+    }
+
+
+    .button-1,
+    .button-2,
+    .button-3 {
+        width: 14.1333333333%;
+    }
+
+    .button-1 {
+        left: 80%;
+
+        top: 10%;
+    }
+
+    .button-2 {
+        left: 80%;
+
+        top: 20%;
+    }
+
+    .button-3 {
+        left: 80%;
+
+        top: 30%;
+    }
+
+    #disc .image {
+
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    #disc {
+        height: 100px;
+        margin-bottom: 30%;
+        margin-top: 133%;
+        width: 100px;
+
+    }
+
+}
+
+@media(max-height: 667px) and (max-width: 375px) {
+    body {
+        font-size: 1.125em;
+    }
+
+    .container {
+        height: 52%;
+        z-index: 100;
+    }
+
+    .bio {
+        left: 81%;
+        top: 150px;
+    }
+
+    .bio .text {
+        left: 20.7547169811%;
+    }
+
+    .button .cv {
+        left: 28.3018867924%;
+    }
+
+    .button .image {
+        height: auto;
+        position: relative;
+    }
+
+    .button .pause {
+        z-index: 9;
+    }
+
+    .button .stop {
+        z-index: 12;
+    }
+
+    .container .image {
+        height: auto;
+        margin-left: 40.68404%;
+        margin-top: 105px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .container .nom {
+        height: 82px;
+        left: 2.3391812865%;
+        line-height: 0.7;
+        top: 7px;
+    }
+
+    .container .text {
+        clear: both;
+        line-height: 1;
+        margin-left: auto;
+        margin-top: 5%;
+        position: relative;
+        width: 100%;
+        z-index: 1;
+
+    }
+
+
+
+    .cv {
+        left: 81%;
+        top: 239px;
+    }
+
+    .footer {
+        margin-left: 34.2625%;
+        margin-top: 12px;
+    }
+
+    .image {
+        height: auto;
+        position: relative;
+        z-index: 14;
+    }
+
+
+    .button-1,
+    .button-2,
+    .button-3 {
+        width: 14.1333333333%;
+    }
+
+
+    .button-1 {
+        left: 80%;
+        top: 10%;
+    }
+
+    .button-2 {
+        left: 80%;
+        top: 25%;
+    }
+
+    .button-3 {
+        left: 80%;
+        top: 40%;
+    }
+
+
+
+    .image-2 {
+        margin-top: 252px;
+    }
+
+    .disc .image {
+
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    #disc {
+        height: 100px;
+        margin-bottom: 30%;
+        margin-top: 133%;
+        width: 100px;
+
+    }
+
+}
+
+
+
+
+@media(max-width: 1440px) and (orientation: landscape) {
+
+    .container {
+        height: 300px;
+        z-index: 100;
+    }
+
+
+    .footer {
+        margin-left: 45%;
+        margin-top: 8%;
+    }
+
+    #disc {
+
+        margin-top: 15%;
+
+
+
+    }
+
+
+    .headphones {
+        margin: 75px 0 0 19.20484%;
+        width: 30px;
+
+    }
+
+    .job {
+        color: rgb(0, 0, 0);
+
+        font-size: 1em;
+        font-weight: normal;
+
+
+        position: relative;
+        text-align: center;
+        z-index: 1;
+    }
+
+
+    .image {
+        display: block;
+        float: left;
+        height: auto;
+        overflow: hidden;
+    }
+
+
+
+    .button-1,
+    .button-2,
+    .button-3 {
+        width: 4.4166666666%;
+        top: 36%;
+    }
+
+    .button-1 {
+        display: block;
+        height: 52px;
+        left: 37.75%;
+        z-index: 13;
+    }
+
+    .button-2 {
+        display: block;
+        height: 52px;
+        left: 47.75%;
+        z-index: 13;
+    }
+
+    .button-3 {
+        display: block;
+        height: 52px;
+        left: 56.4166666666%;
+        z-index: 10;
+    }
+
+
+
+
+}
+
+@media(max-height: 1280px) and (orientation: landscape) {
+
+    .container {
+        height: 300px;
+        z-index: 100;
+    }
+
+
+    .footer {
+        margin-left: 45%;
+        margin-top: 10%;
+    }
+
+    #disc {
+        height: 140px;
+
+        margin-top: 18%;
+        width: 140px;
+        position: relative;
+
+    }
+
+
+    .headphones {
+        margin: 75px 0 0 19.20484%;
+        width: 30px;
+
+    }
+
+    .job {
+        color: rgb(0, 0, 0);
+
+        font-size: 1em;
+        font-weight: normal;
+
+
+        position: relative;
+        text-align: center;
+        z-index: 1;
+    }
+
+
+    .image {
+        display: block;
+        float: left;
+        height: auto;
+        overflow: hidden;
+    }
+
+
+
+    .button-1,
+    .button-2,
+    .button-3 {
+        width: 4.4166666666%;
+        top: 41%;
+    }
+
+    .button-1 {
+        display: block;
+        height: 52px;
+        left: 37.75%;
+        z-index: 13;
+    }
+
+    .button-2 {
+        display: block;
+        height: 52px;
+        left: 47.75%;
+        z-index: 13;
+    }
+
+    .button-3 {
+        display: block;
+        height: 52px;
+        left: 56.4166666666%;
+        z-index: 10;
+    }
+
+
+
+
+}
+
+
+@media(max-width: 812px) and (orientation: landscape) {
+
+    .container {
+        height: 300px;
+        z-index: 100;
+    }
+
+
+    .footer {
+        margin-left: 42%;
+        margin-top: 12%;
+    }
+
+    #disc {
+        height: 100px;
+        margin-bottom: 30%;
+        margin-top: 2%;
+        width: 100px;
+
+    }
+
+
+    .headphones {
+        margin: 75px 0 0 19.20484%;
+        width: 30px;
+
+    }
+
+    .job {
+        color: rgb(0, 0, 0);
+        float: none;
+        font-size: 1em;
+        font-weight: normal;
+
+
+        position: relative;
+        text-align: center;
+        z-index: 1;
+    }
+
+
+    .image {
+        display: block;
+        float: left;
+        height: auto;
+        overflow: hidden;
+    }
+
+
+
+
+    .button-1 {
+        display: block;
+        height: 52px;
+        left: 37.75%;
+        top: 85.2%;
+        width: 4.4166666666%;
+        z-index: 13;
+    }
+
+    .button-2 {
+        display: block;
+        height: 52px;
+        left: 47.75%;
+        top: 85.2%;
+        width: 4.4166666666%;
+        z-index: 13;
+    }
+
+    .button-3 {
+        display: block;
+        height: 52px;
+        left: 56.4166666666%;
+        top: 85.2%;
+        width: 4.4166666666%;
+        z-index: 10;
+    }
+
+
+
+
+}
+
+
+
+@media(max-width: 740px) and (orientation: landscape) {
+
+    .container {
+        height: 300px;
+        z-index: 100;
+    }
+
+    .headphones {
+        left: 15%;
+        width: 30px;
+        position: relative;
+    }
+
+
+    .footer {
+
+        margin-top: 12%;
+    }
+
+    #disc {
+        height: 100px;
+        width: 100px;
+
+    }
+
+
+    .button-1 {
+        display: block;
+        height: 52px;
+        left: 37.0833333333%;
+        top: 88%;
+        width: 4.4166666666%;
+        z-index: 7;
+    }
+
+    .button-2 {
+        display: block;
+        height: 52px;
+        left: 47.75%;
+        top: 88%;
+        width: 4.4166666666%;
+        z-index: 13;
+    }
+
+
+
+    .button-3 {
+        display: block;
+        height: 52px;
+        left: 56.4166666666%;
+        top: 88%;
+        width: 4.4166666666%;
+        z-index: 10;
+    }
+
+
+
+
+}
+
+
+@media(max-width: 736px) and (orientation: landscape) {
+
+    .container {
+        height: 300px;
+        z-index: 100;
+    }
+
+    .headphones {
+        left: 15%;
+        width: 30px;
+        position: relative;
+    }
+
+
+
+    .footer {
+
+        margin-top: 12%;
+    }
+
+    #disc {
+        height: 100px;
+        width: 100px;
+
+    }
+
+    .work {
+        display: block;
+        height: 52px;
+        left: 37.0833333333%;
+        top: 63%;
+        width: 4.4166666666%;
+        z-index: 7;
+    }
+
+    .button-1 {
+        display: block;
+        height: 52px;
+        left: 37.0833333333%;
+        top: 76%;
+        width: 4.4166666666%;
+        z-index: 7;
+    }
+
+    .button-2 {
+        display: block;
+        height: 52px;
+        left: 47.75%;
+        top: 76%;
+        width: 4.4166666666%;
+        z-index: 13;
+    }
+
+
+
+    .button-3 {
+        display: block;
+        height: 52px;
+        left: 56.4166666666%;
+        top: 76%;
+        width: 4.4166666666%;
+        z-index: 10;
+    }
+
+
+
+}
+
+
+@media(max-width: 667px) and (orientation: landscape) {
+
+    .container {
+        height: 300px;
+        z-index: 100;
+    }
+
+    .headphones {
+        left: 10%;
+        width: 30px;
+        position: relative;
+    }
+
+
+    .footer {
+
+        margin-top: 12%;
+    }
+
+    #disc {
+        height: 100px;
+
+        width: 100px;
+
+    }
+
+    .button-1 {
+        display: block;
+        height: 52px;
+        left: 37.0833333333%;
+        top: 83%;
+        width: 4.4166666666%;
+        z-index: 7;
+    }
+
+    .button-2 {
+        display: block;
+        height: 52px;
+        left: 47.75%;
+        top: 83%;
+        width: 4.4166666666%;
+        z-index: 13;
+    }
+
+
+
+    .button-3 {
+        display: block;
+        height: 52px;
+        left: 56.4166666666%;
+        top: 83%;
+        width: 4.4166666666%;
+        z-index: 10;
+    }
+
+
+
+
+}
+
+**EQ** .bar-c {
+    cursor: pointer;
+    height: 30px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 40px;
+
+}
+
+.bar {
+    -webkit-animation-direction: alternate;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    -webkit-animation-timing-function: linear;
+    background-color: #ffffd2;
+    bottom: 0;
+    display: flex;
+    height: 1px;
+    margin-left: 16%;
+    position: absolute;
+    width: 2.4%;
+
+}
+
+.bar.noAnim {
+    -webkit-animation: none;
+    -webkit-animation-name: none;
+}
+
+.bar#bar-1 {
+
+    -webkit-animation-name: danceHeight1;
+    -webkit-animation-delay: 266ms;
+}
+
+.bar#bar-2 {
+    left: 3%;
+    -webkit-animation-name: danceHeight2;
+    -webkit-animation-delay: 150ms;
+}
+
+.bar#bar-3 {
+    left: 6%;
+    -webkit-animation-name: danceHeight3;
+    -webkit-animation-delay: 620ms;
+}
+
+.bar#bar-4 {
+    left: 9%;
+    -webkit-animation-name: danceHeight4;
+    -webkit-animation-delay: 444ms;
+}
+
+.bar#bar-5 {
+    left: 12%;
+    -webkit-animation-name: danceHeight5;
+    -webkit-animation-delay: 325ms;
+}
+
+.bar#bar-6 {
+    left: 15%;
+    -webkit-animation-name: danceHeight6;
+    -webkit-animation-delay: 412ms;
+}
+
+.bar#bar-7 {
+    left: 18%;
+    -webkit-animation-name: danceHeight7;
+    -webkit-animation-delay: 526ms;
+}
+
+.bar#bar-8 {
+    left: 21%;
+    -webkit-animation-name: danceHeight8;
+    -webkit-animation-delay: 725ms;
+}
+
+.bar#bar-9 {
+    left: 24%;
+    -webkit-animation-name: danceHeight9;
+    -webkit-animation-delay: 1200ms;
+}
+
+.bar#bar-10 {
+    left: 27%;
+    -webkit-animation-name: danceHeight10;
+    -webkit-animation-delay: 0ms;
+}
+
+.bar#bar-11 {
+    left: 30%;
+    -webkit-animation-name: danceHeight11;
+    -webkit-animation-delay: 300ms;
+}
+
+.bar#bar-12 {
+    left: 33%;
+    -webkit-animation-name: danceHeight12;
+    -webkit-animation-delay: 600ms;
+}
+
+.bar#bar-13 {
+    left: 36%;
+    -webkit-animation-name: danceHeight13;
+    -webkit-animation-delay: 900ms;
+}
+
+.bar#bar-14 {
+    left: 39%;
+    -webkit-animation-name: danceHeight14;
+    -webkit-animation-delay: 1200ms;
+}
+
+.bar#bar-15 {
+    left: 42%;
+    -webkit-animation-name: danceHeight15;
+    -webkit-animation-delay: 0ms;
+}
+
+.bar#bar-16 {
+    left: 45%;
+    -webkit-animation-name: danceHeight16;
+    -webkit-animation-delay: 300ms;
+}
+
+.bar#bar-17 {
+    left: 48%;
+    -webkit-animation-name: danceHeight17;
+    -webkit-animation-delay: 600ms;
+}
+
+.bar#bar-18 {
+    left: 51%;
+    -webkit-animation-name: danceHeight18;
+    -webkit-animation-delay: 900ms;
+}
+
+.bar#bar-19 {
+    left: 54%;
+    -webkit-animation-name: danceHeight19;
+    -webkit-animation-delay: 1200ms;
+}
+
+.bar#bar-20 {
+    left: 57%;
+    -webkit-animation-name: danceHeight20;
+    -webkit-animation-delay: 0ms;
+}
+
+.bar#bar-21 {
+    left: 60%;
+    -webkit-animation-name: danceHeight21;
+    -webkit-animation-delay: 300ms;
+}
+
+.bar#bar-22 {
+    left: 63%;
+    -webkit-animation-name: danceHeight22;
+    -webkit-animation-delay: 600ms;
+}
+
+.bar#bar-23 {
+    left: 66%;
+    -webkit-animation-name: danceHeight23;
+    -webkit-animation-delay: 900ms;
+}
+
+.bar#bar-24 {
+    left: 70%;
+    -webkit-animation-name: danceHeight24;
+    -webkit-animation-delay: 1200ms;
+}
+
+.bar#bar-25 {
+    left: 73%;
+    -webkit-animation-name: danceHeight25;
+    -webkit-animation-delay: 0ms;
+}
+
+.bar#bar-26 {
+    left: 76%;
+    -webkit-animation-name: danceHeight26;
+    -webkit-animation-delay: 300ms;
+}
+
+.bar#bar-27 {
+    left: 79%;
+    -webkit-animation-name: danceHeight27;
+    -webkit-animation-delay: 600ms;
+}
+
+.bar#bar-28 {
+    left: 82%;
+    -webkit-animation-name: danceHeight28;
+    -webkit-animation-delay: 900ms;
+}
+
+
+@-webkit-keyframes danceHeight1 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 22px;
+    }
+}
+
+@-webkit-keyframes danceHeight2 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 15px;
+    }
+}
+
+@-webkit-keyframes danceHeight3 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 24px;
+    }
+}
+
+@-webkit-keyframes danceHeight4 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 20px;
+    }
+}
+
+@-webkit-keyframes danceHeight5 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 15px;
+    }
+}
+
+@-webkit-keyframes danceHeight6 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 15px;
+    }
+}
+
+@-webkit-keyframes danceHeight7 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 20px;
+    }
+}
+
+@-webkit-keyframes danceHeight8 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 15px;
+    }
+}
+
+@-webkit-keyframes danceHeight9 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 20px;
+    }
+}
+
+@-webkit-keyframes danceHeight10 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 22px;
+    }
+}
+
+@-webkit-keyframes danceHeight11 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 15px;
+    }
+}
+
+@-webkit-keyframes danceHeight12 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 24px;
+    }
+}
+
+@-webkit-keyframes danceHeight13 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 20px;
+    }
+}
+
+@-webkit-keyframes danceHeight14 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 15px;
+    }
+}
+
+@-webkit-keyframes danceHeight15 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 15px;
+    }
+}
+
+@-webkit-keyframes danceHeight16 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 20px;
+    }
+}
+
+@-webkit-keyframes danceHeight17 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 15px;
+    }
+}
+
+@-webkit-keyframes danceHeight18 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 20px;
+    }
+}
+
+@-webkit-keyframes danceHeight19 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 15px;
+    }
+}
+
+@-webkit-keyframes danceHeight20 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 22px;
+    }
+}
+
+@-webkit-keyframes danceHeight21 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 15px;
+    }
+}
+
+@-webkit-keyframes danceHeight22 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 24px;
+    }
+}
+
+@-webkit-keyframes danceHeight23 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 20px;
+    }
+}
+
+@-webkit-keyframes danceHeight24 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 15px;
+    }
+}
+
+@-webkit-keyframes danceHeight25 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 15px;
+    }
+}
+
+@-webkit-keyframes danceHeight26 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 20px;
+    }
+}
+
+@-webkit-keyframes danceHeight27 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 15px;
+    }
+}
+
+@-webkit-keyframes danceHeight28 {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 20px;
+    }
+}
