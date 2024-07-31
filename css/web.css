@@ -9,7 +9,7 @@ body {
     font-style: normal;
     font-weight: normal;
     src: local('../Berlin Sans FB Bold'), url('../BRLNSB.woff');
-    
+    format('woff');
 }
 
 
@@ -166,7 +166,7 @@ a:hover .button {
     z-index: 5;
     width: 19.75%;
     height: 116px;
-    margin: 10% 0 0 46.33203%;
+    margin: 117px 0 0 46.33203%;
     border: 7px solid rgb(0, 0, 0);
     border-radius: 50px;
     background-image: url('../images/Bache-Alternative-full-kopie.jpg'), url('../images/Bache-Alternative-full-kopie.jpg');
@@ -455,7 +455,7 @@ a:hover .button {
         font-size: 1.125em;
     }
 
-    .MK{
+    .MK {
         position: relative;
         z-index: 5;
         width: 19.7494506835%;

@@ -9,7 +9,7 @@ body {
     font-style: normal;
     font-weight: normal;
     src: local('../Berlin Sans FB Bold'), url('../BRLNSB.woff');
-    format('woff');
+    
 }
 
 
