@@ -9,7 +9,7 @@ body {
     font-style: normal;
     font-weight: normal;
     src: local('../Berlin Sans FB Bold'), url('../BRLNSB.woff');
-    format('woff');
+  
 }
 
 
@@ -350,7 +350,7 @@ a:hover .button {
         position: relative;
         z-index: 5;
         width: 19.7488317757%;
-        margin-top: 9px;
+        margin-top: 117px;
         margin-left: 45.32564%;
         font-size: 1.556em;
     }
@@ -393,7 +393,7 @@ a:hover .button {
         position: relative;
         z-index: 7;
         width: 19.7488317757%;
-        margin-top: 131px;
+        margin-top: 9px;
         margin-left: 45.32564%;
     }
 
