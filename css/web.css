@@ -528,6 +528,10 @@ a:hover .button {
         width: 19.7494506835%;
         margin-top: 129px;
         margin-left: 43.99872%;
+        font-size: 1.367em;
+        font-weight: 400;
+        line-height: 1.08;
+        text-align: center;
     }
 
     .button-1,
@@ -627,6 +631,10 @@ a:hover .button {
         width: 19.75%;
         margin-top: 125px;
         margin-left: 48%;
+        font-size: 1.067em;
+        font-weight: 400;
+        line-height: 1.08;
+        text-align: center;
     }
 
     .button-1,

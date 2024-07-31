@@ -343,7 +343,7 @@ a:hover .button {
     .container .image {
         height: auto;
         margin-left: 13.95412%;
-        margin-top: 79px;
+        margin-top: 8px;
     }
 
     .container .nom {
@@ -402,6 +402,21 @@ a:hover .button {
     .button-3 {
         width: 4.4158878504%;
         top: 100%;
+    }
+
+    #disc {
+        background-image: url(../images/vinyl-record-203x152.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 60%;
+        font-family: 'Berlin Sans FB Bold';
+        height: 150px;
+        
+        margin-bottom: 15px;
+        margin-top: 21px;
+        position: relative;
+        width: 150px;
+    
     }
 
 
