@@ -849,7 +849,7 @@ a:hover .button {
     }
 
 
-    .barbiana {
+    .MK {
         position: relative;
         z-index: 5;
         width: 37.8625%;
@@ -858,7 +858,7 @@ a:hover .button {
         font-size: 1.389em;
     }
 
-    .barbiana:hover,
+    .MK:hover,
     .divers:hover,
     .projets:hover {
         box-shadow: 0 2px 50px rgba(0, 0, 0, .5) inset;
