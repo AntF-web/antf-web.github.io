@@ -9,7 +9,7 @@ body {
     font-style: normal;
     font-weight: normal;
     src: local('../Berlin Sans FB Bold'), url('../BRLNSB.woff');
-  
+    
 }
 
 
@@ -338,27 +338,10 @@ a:hover .button {
     color: rgb(255, 255, 204);
 }
 
+
 @media(max-width: 1070px) {
-    .container-1:hover {
-        padding-top: 0;
-        padding-right: 0;
-        padding-bottom: 0;
-        padding-left: 0;
-    }
-
-    .MK {
-        position: relative;
-        z-index: 5;
-        width: 19.7488317757%;
-        margin-top: 117px;
-        margin-left: 45.32564%;
-        font-size: 1.556em;
-    }
-
-    .MK:hover,
-    .divers:hover,
-    .projets:hover {
-        box-shadow: 0 2px 50px rgba(0, 0, 0, .5) inset;
+    .sub:hover {
+        border-color: rgb(255, 255, 204);
     }
 
     .bigb .image {
@@ -366,7 +349,7 @@ a:hover .button {
     }
 
     .bigb .text {
-        margin-left: 2.09782%;
+        margin-left: 2.05145%;
     }
 
     .button .bio {
@@ -386,15 +369,7 @@ a:hover .button {
     }
 
     .container .sub2 {
-        margin-left: 8.2009399999%;
-    }
-
-    .divers {
-        position: relative;
-        z-index: 7;
-        width: 19.7488317757%;
-        margin-top: 9px;
-        margin-left: 45.32564%;
+        margin-left: 8.2079%;
     }
 
     .footer {
@@ -402,9 +377,17 @@ a:hover .button {
         margin-left: 44.43925%;
     }
 
+    .divers {
+        position: relative;
+        z-index: 20;
+        width: 19.7488317757%;
+        margin-top: 9px;
+        margin-left: 45.32564%;
+    }
+
     .nom .image {
         position: relative;
-        z-index: 9;
+        z-index: 15;
         height: auto;
         margin-left: -7%;
     }
@@ -414,13 +397,28 @@ a:hover .button {
         top: 2px;
         margin-left: -5%;
         line-height: 0.7;
+
     }
 
     .projets {
         position: relative;
-        z-index: 6;
+        z-index: 19;
         width: 19.7488317757%;
         margin-top: 9px;
+        margin-left: 45.32564%;
+    }
+
+    .divers:hover,
+    .projets:hover,
+    .MK:hover {
+        box-shadow: 0 2px 50px rgba(0, 0, 0, .5) inset;
+    }
+
+    .MK {
+        position: relative;
+        z-index: 21;
+        width: 19.7488317757%;
+        margin-top: 131px;
         margin-left: 45.32564%;
     }
 
@@ -437,35 +435,20 @@ a:hover .button {
     .container .bigb-1 {
         margin-left: 9.22447%;
     }
+
+    .container-1 {
+        width: 24.1968457943%;
+    }
 }
 
 @media(max-width: 1024px) {
-    .container-1:hover {
-        padding-top: 0;
-        padding-right: 0;
-        padding-bottom: 0;
-        padding-left: 0;
-    }
-
     .sub:hover {
         border-color: rgb(255, 255, 204);
+        background-color: transparent;
     }
 
     body {
         font-size: 1.125em;
-    }
-
-    .MK {
-        position: relative;
-        z-index: 5;
-        width: 19.7494506835%;
-        margin-left: 43.99872%;
-    }
-
-    .MK:hover,
-    .divers:hover,
-    .projets:hover {
-        box-shadow: 0 2px 50px rgba(0, 0, 0, .5) inset;
     }
 
     .bigb .image {
@@ -473,8 +456,7 @@ a:hover .button {
     }
 
     .bigb .text {
-        margin-left: 15%;
-        font-size: 1em;
+        margin-left: 0;
     }
 
     .button .bio {
@@ -499,15 +481,7 @@ a:hover .button {
     }
 
     .container .sub2 {
-        margin-left: 8.34513%;
-    }
-
-    .divers {
-        position: relative;
-        z-index: 7;
-        width: 19.7494506835%;
-        margin-top: 129px;
-        margin-left: 43.99872%;
+        margin-left: 8.35974%;
     }
 
     .footer {
@@ -515,9 +489,16 @@ a:hover .button {
         margin-left: 44.7876%;
     }
 
+    .divers {
+        position: relative;
+        z-index: 20;
+        width: 19.7494506835%;
+        margin-left: 43.99872%;
+    }
+
     .nom .image {
         position: relative;
-        z-index: 9;
+        z-index: 15;
         height: auto;
     }
 
@@ -530,8 +511,22 @@ a:hover .button {
 
     .projets {
         position: relative;
-        z-index: 6;
+        z-index: 19;
         width: 19.7494506835%;
+        margin-left: 43.99872%;
+    }
+
+    .divers:hover,
+    .projets:hover,
+    .MK:hover {
+        box-shadow: 0 2px 50px rgba(0, 0, 0, .5) inset;
+    }
+
+    .MK {
+        position: relative;
+        z-index: 21;
+        width: 19.7494506835%;
+        margin-top: 129px;
         margin-left: 43.99872%;
     }
 
@@ -550,8 +545,6 @@ a:hover .button {
 }
 
 @media(max-width: 800px) {
-
-    .container-1:hover,
     .container-4:hover {
         padding-top: 0;
         padding-right: 0;
@@ -559,25 +552,8 @@ a:hover .button {
         padding-left: 0;
     }
 
-    .MK {
-        position: relative;
-        z-index: 5;
-        width: 19.75%;
-        margin-left: 48%;
-    }
-
-    .MK:hover,
-    .divers:hover,
-    .projets:hover {
-        box-shadow: 0 2px 50px rgba(0, 0, 0, .5) inset;
-    }
-
     .bigb .image {
         height: auto;
-    }
-
-    .bigb .text {
-        margin-left: 1%;
     }
 
     .button .image {
@@ -594,7 +570,7 @@ a:hover .button {
     }
 
     .container .sub {
-        width: 81.6785808842%;
+        width: 81.6851265822%;
     }
 
     .container .sub2 {
@@ -603,17 +579,16 @@ a:hover .button {
         margin-left: 7.3701%;
     }
 
-    .divers {
-        position: relative;
-        z-index: 7;
-        width: 19.75%;
-        margin-top: 125px;
-        margin-left: 48%;
-    }
-
     .footer {
         margin-top: 57px;
         margin-left: 42.6875%;
+    }
+
+    .divers {
+        position: relative;
+        z-index: 20;
+        width: 19.75%;
+        margin-left: 48%;
     }
 
     .nom {
@@ -622,7 +597,7 @@ a:hover .button {
 
     .nom .image {
         position: relative;
-        z-index: 9;
+        z-index: 15;
         height: auto;
         margin-left: 2%;
     }
@@ -635,8 +610,22 @@ a:hover .button {
 
     .projets {
         position: relative;
-        z-index: 6;
+        z-index: 19;
         width: 19.75%;
+        margin-left: 48%;
+    }
+
+    .divers:hover,
+    .projets:hover,
+    .MK:hover {
+        box-shadow: 0 2px 50px rgba(0, 0, 0, .5) inset;
+    }
+
+    .MK {
+        position: relative;
+        z-index: 21;
+        width: 19.75%;
+        margin-top: 125px;
         margin-left: 48%;
     }
 
@@ -651,11 +640,13 @@ a:hover .button {
         margin-top: 38px;
         margin-left: 9.375%;
     }
+
+    .container-1 {
+        height: 86px;
+    }
 }
 
 @media(max-width: 414px) {
-
-    .container-1:hover,
     .container-4:hover {
         padding-top: 0;
         padding-right: 0;
@@ -675,7 +666,7 @@ a:hover .button {
     }
 
     .bigb .text {
-        margin-left: 34.21586%;
+        margin-left: 20.37037%;
     }
 
     .bio {
@@ -707,34 +698,16 @@ a:hover .button {
         top: 339px;
     }
 
+    .footer {
+        margin-left: 34.50417%;
+    }
+
     .divers {
         position: relative;
-        z-index: 7;
-        width: 37.8625%;
-        height: 68px;
-        margin-top: 269px;
-        margin-left: 30.92917%;
-        font-size: 1.389em;
-    }
-
-    .footer {
-        margin-left: 34.52917%;
-    }
-
-
-    .MK {
-        position: relative;
-        z-index: 5;
+        z-index: 20;
         width: 37.8625%;
         height: 68px;
         margin-left: 30.92917%;
-        font-size: 1.389em;
-    }
-
-    .MK:hover,
-    .divers:hover,
-    .projets:hover {
-        box-shadow: 0 2px 50px rgba(0, 0, 0, .5) inset;
     }
 
     .nom {
@@ -743,7 +716,7 @@ a:hover .button {
 
     .nom .image {
         position: relative;
-        z-index: 9;
+        z-index: 15;
         height: auto;
         margin-left: 2.85458%;
     }
@@ -756,18 +729,32 @@ a:hover .button {
 
     .projets {
         position: relative;
-        z-index: 6;
+        z-index: 19;
         width: 37.8625%;
         height: 68px;
         margin-left: 30.92917%;
-        font-size: 1.389em;
     }
 
-    .work {
+    .divers:hover,
+    .projets:hover,
+    .MK:hover {
+        box-shadow: 0 2px 50px rgba(0, 0, 0, .5) inset;
+    }
+
+    .MK {
+        position: relative;
+        z-index: 21;
+        width: 37.8625%;
+        height: 68px;
+        margin-top: 269px;
+        margin-left: 30.92917%;
+    }
+
+    .button-1 {
         top: 149px;
+        width: 14.1333333333%;
     }
 
-    .button-1,
     .button-3,
     .button-5 {
         width: 14.1333333333%;
@@ -780,9 +767,8 @@ a:hover .button {
     }
 }
 
-@media(max-width: 375px) {
 
-    .container-1:hover,
+@media(max-width: 375px) {
     .container-4:hover {
         padding-top: 0;
         padding-right: 0;
@@ -802,7 +788,7 @@ a:hover .button {
     }
 
     .bigb .text {
-        margin-left: 34.21586%;
+        margin-left: 15%;
     }
 
     .bio {
@@ -834,34 +820,16 @@ a:hover .button {
         top: 339px;
     }
 
+    .footer {
+        margin-left: 34.50417%;
+    }
+
     .divers {
         position: relative;
-        z-index: 7;
-        width: 37.8625%;
-        height: 68px;
-        margin-top: 269px;
-        margin-left: 30.92917%;
-        font-size: 1.389em;
-    }
-
-    .footer {
-        margin-left: 34.52917%;
-    }
-
-
-    .MK {
-        position: relative;
-        z-index: 5;
+        z-index: 20;
         width: 37.8625%;
         height: 68px;
         margin-left: 30.92917%;
-        font-size: 1.389em;
-    }
-
-    .MK:hover,
-    .divers:hover,
-    .projets:hover {
-        box-shadow: 0 2px 50px rgba(0, 0, 0, .5) inset;
     }
 
     .nom {
@@ -870,7 +838,7 @@ a:hover .button {
 
     .nom .image {
         position: relative;
-        z-index: 9;
+        z-index: 15;
         height: auto;
         margin-left: 2.85458%;
     }
@@ -883,18 +851,32 @@ a:hover .button {
 
     .projets {
         position: relative;
-        z-index: 6;
+        z-index: 19;
         width: 37.8625%;
         height: 68px;
         margin-left: 30.92917%;
-        font-size: 1.389em;
     }
 
-    .work {
+    .divers:hover,
+    .projets:hover,
+    .MK:hover {
+        box-shadow: 0 2px 50px rgba(0, 0, 0, .5) inset;
+    }
+
+    .MK {
+        position: relative;
+        z-index: 21;
+        width: 37.8625%;
+        height: 68px;
+        margin-top: 269px;
+        margin-left: 30.92917%;
+    }
+
+    .button-1 {
         top: 149px;
+        width: 14.1333333333%;
     }
 
-    .button-1,
     .button-3,
     .button-5 {
         width: 14.1333333333%;
@@ -912,10 +894,9 @@ a:hover .button {
     overflow: hidden;
     height: 30px;
     width: 40px;
-    margin: auto;
     position: relative;
     cursor: pointer;
-
+    z-index: 2;
 }
 
 .bar {
